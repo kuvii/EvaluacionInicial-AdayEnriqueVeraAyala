@@ -9,7 +9,7 @@ const Formulario = (task, setTask) => {
     const handleInputChange = (e) => {
         e.preventDefault();
         setFormState({
-          ...task,
+          ...form,
           [e.target.name]: e.target.value
         });
       };
